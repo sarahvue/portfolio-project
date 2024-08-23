@@ -81,3 +81,18 @@ footer a {
 footer a:hover {
   color: var(--secondary-color);
 }
+
+@media (max-width: 992px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer * {
+    margin: 0.5em;
+  }
+
+  footer .seperator {
+    display: none;
+  }
+}
