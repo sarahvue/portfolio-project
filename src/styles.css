@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #daffdc;
+  --secondary-color: #089611;
+  --font-color-primary: #000;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
