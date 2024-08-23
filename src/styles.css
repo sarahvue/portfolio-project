@@ -5,9 +5,64 @@
 }
 
 body {
-  font-family: "Overpass", sans-serif;
+  font-family: "Overpass", Arial, Helvetica, sans-serif;
 }
 
 .custom-navbar {
   background-color: var(--primary-color) !important;
+}
+
+.intro {
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.intro span,
+.intro h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.skills {
+  padding: 3em 0 3em 0;
+}
+
+.skills i {
+  font-size: 50px;
+  color: var(--secondary-color);
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 2em;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--font-color-primary);
+}
+
+footer a:hover {
+  color: var(--secondary-color);
 }
