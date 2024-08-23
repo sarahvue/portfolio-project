@@ -8,6 +8,7 @@ body {
   font-family: "Overpass", Arial, Helvetica, sans-serif;
 }
 
+/* NAV CUSTOM STYLES */
 .custom-navbar {
   background-color: var(--primary-color) !important; /* Custom background */
 }
@@ -29,7 +30,9 @@ body {
   color: var(--font-color-primary) !important; /* Custom toggle button color */
   border-color: rgba(0, 0, 0, 0.1); /* Border color for the toggle button */
 }
+/* END OF NAV CUSTOM STYLES */
 
+/*Home Page Custom Edits*/
 .intro {
   background-color: var(--primary-color);
   height: 90vh;
@@ -39,6 +42,23 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
+.skills {
+  padding: 3em 0 3em 0;
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-work {
+  margin-bottom: 12em;
+}
+
+/* END OF HOME PAGE CUSTOME EDITS*/
+
+/* GLOBAL STYLING */
 
 .heading-one {
   font-size: 64px;
@@ -56,6 +76,24 @@ h3 {
   font-weight: 700;
 }
 
+i {
+  font-size: 48px;
+  color: var(--secondary-color);
+}
+
+.btn-color {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.btn-color:hover {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+/* END OF GLOBAL STYLE */
+
+/* ABOUT PAGE CUSTOM EDITS */
 .about-page {
   height: 100%;
 }
@@ -69,35 +107,9 @@ h3 {
 .about-intro p {
   line-height: 1.6;
 }
+/* END OF ABOUT PAGE CUSTOM EDITS */
 
-.skills {
-  padding: 3em 0 3em 0;
-}
-
-i {
-  font-size: 48px;
-  color: var(--secondary-color);
-}
-
-.skills-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.recent-work {
-  margin-bottom: 12em;
-}
-
-.btn-color {
-  background-color: var(--secondary-color);
-  color: #fff;
-}
-
-.btn-color:hover {
-  border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
-}
-
+/* FOOTER STYLES */
 footer {
   background-color: var(--primary-color);
   text-align: center;
@@ -113,6 +125,9 @@ footer a:hover {
   color: var(--secondary-color);
 }
 
+/* END OF FOOTER STYLES */
+
+/* Custom Styles for Screen Sizes */
 @media (max-width: 992px) {
   .who {
     display: block;
