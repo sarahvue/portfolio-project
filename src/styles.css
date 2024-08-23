@@ -87,6 +87,10 @@ footer a:hover {
     display: block;
   }
 
+  .skills i {
+    font-size: 42px;
+  }
+
   footer {
     display: flex;
     flex-direction: column;
