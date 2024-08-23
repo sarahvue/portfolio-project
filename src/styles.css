@@ -1,6 +1,6 @@
 :root {
   --primary-color: #daffdc;
-  --secondary-color: #089611;
+  --secondary-color: #06630c;
   --font-color-primary: #000;
 }
 
@@ -15,21 +15,19 @@ body {
 
 .custom-navbar .navbar-nav .nav-link,
 .custom-navbar .navbar-brand {
-  color: var(--font-color-primary) !important; /* Custom text color */
+  color: var(--secondary-color) !important; /* Custom text color */
 }
 
 .custom-navbar .navbar-nav .nav-link:hover,
 .custom-navbar .navbar-brand:hover {
-  color: darken(
-    var(--font-color-primary),
-    15%
-  ) !important; /* Darker text color on hover */
+  color: var(--font-color-primary) !important; /* Darker text color on hover */
 }
 
 .custom-navbar .navbar-toggler {
   color: var(--font-color-primary) !important; /* Custom toggle button color */
   border-color: rgba(0, 0, 0, 0.1); /* Border color for the toggle button */
 }
+
 /* END OF NAV CUSTOM STYLES */
 
 /*Home Page Custom Edits*/
