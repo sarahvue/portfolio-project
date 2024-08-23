@@ -57,6 +57,16 @@ h3 {
   margin-bottom: 12em;
 }
 
+.btn-color {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.btn-color:hover {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
 footer {
   background-color: var(--primary-color);
   text-align: center;
